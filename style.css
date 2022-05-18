@@ -1,0 +1,82 @@
+:root {
+  --primary-color: #fff;
+  --secondary-color: #212121;
+  --body-background: hsl(0, 0%, 98%);
+}
+.dark-mode {
+  --primary-color: hsl(209, 23%, 22%);
+  --secondary-color: #edf2fc;
+  --body-background: hsl(207, 26%, 17%);
+}
+body {
+  background-color: var(--body-background);
+}
+#icon {
+  cursor: pointer;
+  width: 20px;
+  margin-top: 22px;
+}
+.darkmode {
+  cursor: pointer;
+  color: var(--secondary-color);
+  margin-left: 5px;
+}
+
+.country-item {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+h2 {
+  width: 220px;
+  color: var(--secondary-color);
+}
+
+.parent {
+  background-color: var(--primary-color);
+}
+.Search {
+  margin-top: 30px;
+  padding: 10px 200px 10px 20px;
+  border: none;
+  border-radius: 3px;
+  /* box-shadow: 5px 5px 50px #ccc; */
+}
+.countryContainer {
+  /* background-color: var(--primary-color); */
+  color: var(--secondary-color);
+}
+.photo {
+  margin-top: 20px;
+  width: 220px;
+  height: 150px;
+  border-radius: 5px;
+}
+.germany {
+  background-color: var(--primary-color);
+  height: 150px;
+  width: 150px;
+  font-size: small;
+  padding-left: 70px;
+  margin-top: -4px;
+}
+h3 {
+  padding-top: 20px;
+  margin-top: 0px;
+}
+.sudip {
+  display: flex;
+  flex-wrap: wrap;
+}
+.darkModeToggle {
+  display: flex;
+}
+input {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
